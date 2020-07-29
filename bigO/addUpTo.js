@@ -1,4 +1,4 @@
-const performance = require("../performance");
+const { performance } = require("../utils");
 
 function addUpTo(n) {
   let total = 0;

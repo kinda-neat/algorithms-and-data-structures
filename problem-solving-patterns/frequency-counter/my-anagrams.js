@@ -1,5 +1,4 @@
-const performance = require("../../performance");
-const range = require("../../range");
+const { performance, range } = require("../../utils");
 
 function validAnagram(str, anagram) {
   if (str.length !== anagram.length) {
@@ -36,7 +35,7 @@ function mkElementToFrequencyMap(arr) {
     }
     return acc;
   }, {});
-} 
+}
 
 performance(() =>
   validAnagram(range(0, 1000000).join(), range(0, 1000000).join())

@@ -1,6 +1,5 @@
 // Frequency Counter Pattern
-const performance = require("../../performance");
-const range = require("../../range");
+const { performance, range } = require("../../utils");
 
 function same(arr, squaredArr) {
   if (arr.length !== squaredArr.length) {
