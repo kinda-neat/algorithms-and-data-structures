@@ -1,5 +1,5 @@
-const performance = require("../performance");
-const range = require("../range");
+const performance = require("../../performance");
+const range = require("../../range");
 
 function same(arr1, arr2) {
   if (arr1.length !== arr2.length) {

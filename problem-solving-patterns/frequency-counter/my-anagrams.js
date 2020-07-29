@@ -1,5 +1,5 @@
-const performance = require("../performance");
-const range = require("../range");
+const performance = require("../../performance");
+const range = require("../../range");
 
 function validAnagram(str, anagram) {
   if (str.length !== anagram.length) {
