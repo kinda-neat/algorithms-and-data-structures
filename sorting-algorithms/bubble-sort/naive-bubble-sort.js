@@ -1,4 +1,4 @@
-const { swap } = require("../utils");
+const { swap } = require("../../utils");
 
 function bubbleSort(arr) {
   for (let i = 0; i < arr.length; i++) {

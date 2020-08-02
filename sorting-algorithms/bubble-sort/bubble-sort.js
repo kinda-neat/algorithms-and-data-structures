@@ -1,4 +1,4 @@
-const { swap } = require("../utils");
+const { swap } = require("../../utils");
 
 // largest values bubble up to the top
 function bubbleSort(arr) {
